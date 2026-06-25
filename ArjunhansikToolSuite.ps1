@@ -2071,6 +2071,7 @@ if ($Branch -eq 7) {
             "9" { $Branch = 9; break }
             "10" { $Branch = 10; break }
             "11" { $Branch = 11; break }
+            "12" { $Branch = 12; break }
             "Q" { exit 0 }
             default { continue }
         }
@@ -2264,6 +2265,7 @@ if ($Branch -eq 8) {
             "9" { $Branch = 9; break }
             "10" { $Branch = 10; break }
             "11" { $Branch = 11; break }
+            "12" { $Branch = 12; break }
             "Q" { exit 0 }
             default { continue }
         }
@@ -2408,6 +2410,7 @@ if ($Branch -eq 10) {
                 "9"  { $Branch = 9; break }
                 "10" { $Branch = 10; break }
                 "11" { $Branch = 11; break }
+                "12" { $Branch = 12; break }
                 "Q"  { exit 0 }
                 default { continue }
             }
@@ -2586,6 +2589,7 @@ if ($Branch -eq 10) {
                         "9"  { $Branch = 9; break }
                         "10" { $Branch = 10; break }
                         "11" { $Branch = 11; break }
+                        "12" { $Branch = 12; break }
                         "Q"  { exit 0 }
                         default { continue }
                     }
@@ -3238,6 +3242,7 @@ if ($Branch -eq 11) {
             "9"  { $Branch = 9; break }
             "10" { $Branch = 10; break }
             "11" { $Branch = 11; break }
+            "12" { $Branch = 12; break }
             "Q"  { exit 0 }
             default { continue }
         }
@@ -3280,7 +3285,10 @@ if ($Branch -eq 12) {
     Log "INFO" "Running Steamless Error 54 fix for AppID $appId..."
     Blank
     try {
-        & ([scriptblock]::Create((Invoke-RestMethod "https://raw.githubusercontent.com/Peron4TheWin/ps1collection/refs/heads/main/steamless.ps1"))) -AppId $appId
+        $steamlessScript = Invoke-RestMethod "https://raw.githubusercontent.com/Peron4TheWin/ps1collection/refs/heads/main/steamless.ps1"
+        $tmpScript = Join-Path $env:TEMP "steamless_fix.ps1"
+        $steamlessScript | Set-Content $tmpScript -Encoding UTF8
+        Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$tmpScript`" -AppId $appId" -Wait
         Log "OK" "Steamless Error 54 fix finished."
     } catch {
         Log "ERR" "Steamless Error 54 fix failed: $($_.Exception.Message)"
