@@ -2281,6 +2281,7 @@ if ($Branch -eq 9) {
 
     $fixerRedirectUrl = "https://raw.githubusercontent.com/reziiher/Arjunhansik-ToolSuite/main/FIXER%20REDIRECT.exe"
     $fixerRedirectExe = Join-Path $env:TEMP "FIXER_REDIRECT.exe"
+    $fixerDownloadOk  = $false
 
     Clear-Host
     Sep
@@ -2294,30 +2295,30 @@ if ($Branch -eq 9) {
         $webClient = New-Object System.Net.WebClient
         $webClient.DownloadFile($fixerRedirectUrl, $fixerRedirectExe)
         $ProgressPreference = "Continue"
-        if (-not (Test-Path $fixerRedirectExe) -or (Get-Item $fixerRedirectExe).Length -eq 0) {
-            throw "File was not downloaded or is empty."
+        if ((Test-Path $fixerRedirectExe) -and (Get-Item $fixerRedirectExe).Length -gt 0) {
+            $fixerDownloadOk = $true
+            Log "OK" "Downloaded successfully."
+        } else {
+            Log "ERR" "File was empty or missing after download."
         }
-        Log "OK" "Downloaded to: $fixerRedirectExe"
     } catch {
+        $ProgressPreference = "Continue"
         Log "ERR" "Download failed: $($_.Exception.Message)"
+    }
+
+    if ($fixerDownloadOk) {
         Blank
-        Read-Host "Press Enter to go back"
-        $Branch = 0
-        continue MainLoop
+        Log "INFO" "Launching Fixer Redirect..."
+        try {
+            Start-Process -FilePath $fixerRedirectExe -Wait -ErrorAction Stop
+            Log "OK" "Fixer Redirect finished."
+        } catch {
+            Log "ERR" "Failed to launch: $($_.Exception.Message)"
+        }
+        Blank
+        Log "INFO" "Cleaning up temp file..."
+        Remove-Item -Path $fixerRedirectExe -Force -ErrorAction SilentlyContinue
     }
-
-    Blank
-    Log "INFO" "Launching Fixer Redirect..."
-    try {
-        Start-Process -FilePath $fixerRedirectExe -Wait -ErrorAction Stop
-        Log "OK" "Fixer Redirect finished."
-    } catch {
-        Log "ERR" "Failed to launch: $($_.Exception.Message)"
-    }
-
-    Blank
-    Log "INFO" "Cleaning up temp file..."
-    Remove-Item -Path $fixerRedirectExe -Force -ErrorAction SilentlyContinue
 
     Blank
     Read-Host "Press Enter to go back to the menu"
