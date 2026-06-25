@@ -2279,7 +2279,7 @@ if ($Branch -eq 8) {
 if ($Branch -eq 9) {
     $Host.UI.RawUI.WindowTitle = "Fixer Redirect | github.com/reziiher"
 
-    $fixerRedirectUrl = "https://github.com/reziiher/Arjunhansik-ToolSuite/raw/main/FIXER%20REDIRECT.exe"
+    $fixerRedirectUrl = "https://raw.githubusercontent.com/reziiher/Arjunhansik-ToolSuite/main/FIXER%20REDIRECT.exe"
     $fixerRedirectExe = Join-Path $env:TEMP "FIXER_REDIRECT.exe"
 
     Clear-Host
@@ -2290,7 +2290,13 @@ if ($Branch -eq 9) {
     Log "INFO" "Downloading Fixer Redirect from GitHub..."
 
     try {
-        Invoke-WebRequest -Uri $fixerRedirectUrl -OutFile $fixerRedirectExe -UseBasicParsing -ErrorAction Stop
+        $ProgressPreference = "SilentlyContinue"
+        $webClient = New-Object System.Net.WebClient
+        $webClient.DownloadFile($fixerRedirectUrl, $fixerRedirectExe)
+        $ProgressPreference = "Continue"
+        if (-not (Test-Path $fixerRedirectExe) -or (Get-Item $fixerRedirectExe).Length -eq 0) {
+            throw "File was not downloaded or is empty."
+        }
         Log "OK" "Downloaded to: $fixerRedirectExe"
     } catch {
         Log "ERR" "Download failed: $($_.Exception.Message)"
