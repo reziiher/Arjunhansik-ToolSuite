@@ -1,4 +1,4 @@
-﻿# Based on luatools by Arjunhansik
+# Based on luatools by Arjunhansik
 # Credits: Arjunhansik, realrezii
 
 param(
@@ -79,7 +79,7 @@ $Translations = @{
         "by Rafiekunsimp" = "by Rafiekunsimp"
         "Steam Manifest Downloader" = "Steam Manifest Downloader"
         "Downloads depot manifests when       " = "Downloads depot manifests when       "
-        "by Skyflare (Modified by Arjunhansik)" = "by Skyflare (Modified by Arjunhansik)"
+        "by Arjunhansik (Modified by Arjunhansik)" = "by Arjunhansik (Modified by Arjunhansik)"
         "SteamTools servers are unavailable   " = "SteamTools servers are unavailable   "
         "No Internet Connection Fix" = "No Internet Connection Fix"
         "Fixes Steam 'No Internet' errors via " = "Fixes Steam 'No Internet' errors via "
@@ -91,7 +91,7 @@ $Translations = @{
         "GUI, or runs it if already installed " = "GUI, or runs it if already installed "
         "Millennium & SteamTools Reinstaller" = "Millennium & SteamTools Reinstaller"
         "Reinstalls Millennium + SteamTools,  " = "Reinstalls Millennium + SteamTools,  "
-        "by clem.la & melly" = "by clem.la & melly"
+        "by Arjunhansik" = "by Arjunhansik"
         "fixes hardlink errors on reinstall   " = "fixes hardlink errors on reinstall   "
         "Quit" = "Quit"
         "Select an option" = "Select an option"
@@ -131,7 +131,7 @@ $Translations = @{
         "by Arjunhansik" = "от Arjunhansik"
         "Steam Manifest Downloader" = "Загрузчик манифестов Steam"
         "Downloads depot manifests when       " = "Загружает манифесты депо, когда      "
-        "by Skyflare (Modified by Arjunhansik)" = "от Skyflare (изменено Arjunhansik)"
+        "by Arjunhansik (Modified by Arjunhansik)" = "от Arjunhansik (изменено Arjunhansik)"
         "SteamTools servers are unavailable   " = "серверы SteamTools недоступны        "
         "No Internet Connection Fix" = "Исправление отсутствия интернета"
         "Fixes Steam 'No Internet' errors via " = "Исправляет ошибки 'No Internet' через "
@@ -143,7 +143,7 @@ $Translations = @{
         "GUI, or runs it if already installed " = "GUI, или запускает, если уже установлено "
         "Millennium & SteamTools Reinstaller" = "Переустановщик Millennium и SteamTools"
         "Reinstalls Millennium + SteamTools,  " = "Переустанавливает Millennium + SteamTools, "
-        "by clem.la & melly" = "от clem.la и melly"
+        "by Arjunhansik" = "от Arjunhansik"
         "fixes hardlink errors on reinstall   " = "исправляет ошибки hardlink при переустановке "
         "Quit" = "Выход"
         "Select an option" = "Выберите опцию"
@@ -183,7 +183,7 @@ $Translations = @{
         "by Arjunhansik" = "par Arjunhansik"
         "Steam Manifest Downloader" = "Téléchargeur de manifestes Steam"
         "Downloads depot manifests when       " = "Télécharge les manifestes de dépôt quand "
-        "by Skyflare (Modified by Arjunhansik)" = "par Skyflare (modifié par Arjunhansik)"
+        "by Arjunhansik (Modified by Arjunhansik)" = "par Arjunhansik (modifié par Arjunhansik)"
         "SteamTools servers are unavailable   " = "les serveurs SteamTools sont indisponibles "
         "No Internet Connection Fix" = "Correctif de connexion Internet"
         "Fixes Steam 'No Internet' errors via " = "Corrige les erreurs 'No Internet' de Steam via "
@@ -195,7 +195,7 @@ $Translations = @{
         "GUI, or runs it if already installed " = "GUI, ou l'exécute si déjà installé   "
         "Millennium & SteamTools Reinstaller" = "Réinstalleur Millennium et SteamTools"
         "Reinstalls Millennium + SteamTools,  " = "Réinstalle Millennium + SteamTools,  "
-        "by clem.la & melly" = "par clem.la et melly"
+        "by Arjunhansik" = "par Arjunhansik"
         "fixes hardlink errors on reinstall   " = "corrige les erreurs hardlink à la réinstallation "
         "Quit" = "Quitter"
         "Select an option" = "Sélectionnez une option"
@@ -236,10 +236,10 @@ $Translations = @{
         "Fixes Steam stuck on loading icon by waike" = "Corrige Steam atascado en el icono de carga por waike"
         "Runs various Steam/Steamtools fixes by waike" = "Ejecuta varios arreglos de Steam/Steamtools por waike"
         "Full Steamtools/Arjunhansik uninstaller by Arjunhansik" = "Desinstalador completo de Steamtools/Arjunhansik por Arjunhansik"
-        "Downloads depot manifests when SteamTools servers are unavailable by Skyflare (Modified by Arjunhansik)" = "Descarga manifiestos cuando los servidores de SteamTools no están disponibles por Skyflare (Modificado por Arjunhansik)"
+        "Downloads depot manifests when SteamTools servers are unavailable by Arjunhansik (Modified by Arjunhansik)" = "Descarga manifiestos cuando los servidores de SteamTools no están disponibles por Arjunhansik (Modificado por Arjunhansik)"
         "Fixes Steam 'No Internet' errors via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer" = "Corrige errores de Steam 'Sin Internet' mediante Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer"
         "Downloads & launches CloudRedirect by Arjunhansik | App by SelectivelyGood GUI, or runs it if already installed" = "Descarga e inicia CloudRedirect by Arjunhansik | App by SelectivelyGood GUI, o lo ejecuta si ya está instalado"
-        "Reinstalls Millennium + SteamTools, by clem.la & melly fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por clem.la & melly corrige errores de hardlink al reinstalar"
+        "Reinstalls Millennium + SteamTools, by Arjunhansik fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por Arjunhansik corrige errores de hardlink al reinstalar"
         "Quit" = "Salir"
         "Select an option" = "Selecciona una opción"
         "Skip Windows Defender exclusions? (y/N)" = "¿Omitir exclusiones de Windows Defender? (s/N)"
@@ -315,10 +315,10 @@ $Translations = @{
         "Fixes Steam stuck on loading icon by waike" = "Corrige Steam preso no ícone de carregamento por waike"
         "Runs various Steam/Steamtools fixes by waike" = "Executa várias correções de Steam/Steamtools por waike"
         "Full Steamtools/Arjunhansik uninstaller by Rafiekunsimp" = "Desinstalador completo de Steamtools/Arjunhansik por Arjunhansik"
-        "Downloads depot manifests when SteamTools servers are unavailable by Skyflare (Modified by Arjunhansik)" = "Baixa manifestos quando os servidores do SteamTools não estão disponíveis por Skyflare (Modificado por Arjunhansik)"
+        "Downloads depot manifests when SteamTools servers are unavailable by Arjunhansik (Modified by Arjunhansik)" = "Baixa manifestos quando os servidores do SteamTools não estão disponíveis por Arjunhansik (Modificado por Arjunhansik)"
         "Fixes Steam 'No Internet' errors via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer" = "Corrige erros de Steam 'Sem Internet' via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer"
         "Downloads & launches CloudRedirect by Arjunhansik | App by SelectivelyGood GUI, or runs it if already installed" = "Baixa e inicia CloudRedirect by Arjunhansik | App by SelectivelyGood GUI, ou o executa se já estiver instalado"
-        "Reinstalls Millennium + SteamTools, by clem.la & melly fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por clem.la & melly corrige erros de hardlink na reinstalação"
+        "Reinstalls Millennium + SteamTools, by Arjunhansik fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por Arjunhansik corrige erros de hardlink na reinstalação"
         "Quit" = "Sair"
         "Select an option" = "Selecione uma opção"
         "Skip Windows Defender exclusions? (y/N)" = "Pular exclusões do Windows Defender? (s/N)"
@@ -743,7 +743,7 @@ function Write-MainMenu {
     Write-Host "  " -NoNewline
     Write-Host " 12" -NoNewline -ForegroundColor Black -BackgroundColor Yellow
     Write-Host "  Steamless Error 54 Fix       " -NoNewline -ForegroundColor White
-    Write-Host "by Peron4TheWin" -ForegroundColor DarkGray
+    Write-Host "by Arjunhansik" -ForegroundColor DarkGray
 
     # ── OTHER section ──
     Blank
@@ -759,7 +759,7 @@ function Write-MainMenu {
     Write-Host "  " -NoNewline
     Write-Host " 7 " -NoNewline -ForegroundColor Black -BackgroundColor Cyan
     Write-Host "  Steam Manifest Downloader    " -NoNewline -ForegroundColor White
-    Write-Host "by Skyflare (modded by Arjunhansik)" -ForegroundColor DarkGray
+    Write-Host "by Arjunhansik (modded by Arjunhansik)" -ForegroundColor DarkGray
 
     Write-Host "  " -NoNewline
     Write-Host " 8 " -NoNewline -ForegroundColor Black -BackgroundColor Cyan
@@ -768,13 +768,13 @@ function Write-MainMenu {
 
     Write-Host "  " -NoNewline
     Write-Host " 9 " -NoNewline -ForegroundColor Black -BackgroundColor Cyan
-    Write-Host "  CloudRedirect GUI            " -NoNewline -ForegroundColor White
-    Write-Host "by SelectivelyGood" -ForegroundColor DarkGray
+    Write-Host "  Fixer Redirect               " -NoNewline -ForegroundColor White
+    Write-Host "by Arjunhansik" -ForegroundColor DarkGray
 
     Write-Host "  " -NoNewline
     Write-Host " 10" -NoNewline -ForegroundColor Black -BackgroundColor Cyan
     Write-Host "  Millennium & ST Reinstaller  " -NoNewline -ForegroundColor White
-    Write-Host "by clem.la & melly" -ForegroundColor DarkGray
+    Write-Host "by Arjunhansik" -ForegroundColor DarkGray
 
     Write-Host "  " -NoNewline
     Write-Host " 11" -NoNewline -ForegroundColor Black -BackgroundColor Cyan
@@ -1342,11 +1342,11 @@ if ($Branch -eq 6) {
 }
 
 
-#### Branch 7: Steam Manifest Downloader (by Skyflare - Modified by Arjunhansik) ####
+#### Branch 7: Steam Manifest Downloader (by Arjunhansik - Modified by Arjunhansik) ####
 if ($Branch -eq 7) {
     Log "INFO" "Steam Manifest Downloader"
     Log "AUX"  "Downloads depot manifests when SteamTools servers are unavailable."
-    Log "AUX"  "Credit: Skyflare (Modified by Rafiekunsimp)"
+    Log "AUX"  "Credit: Arjunhansik (Modified by Rafiekunsimp)"
     Blank
 
     # ---- Manifest Downloader: Inner functions (scoped to avoid collisions) ----
@@ -2275,183 +2275,54 @@ if ($Branch -eq 8) {
 
 
 
-#### Branch 9: Download / Launch CloudRedirect GUI (App by SelectivelyGood | Script by Arjunhansik) ####
+#### Branch 9: Fixer Redirect (by Arjunhansik) ####
 if ($Branch -eq 9) {
-    $Host.UI.RawUI.WindowTitle = "CloudRedirect GUI | github.com/Rafie-kun"
+    $Host.UI.RawUI.WindowTitle = "Fixer Redirect | github.com/reziiher"
 
-    $cloudRedirectDir  = "C:\Program Files (x86)\Steam\CloudRedirect"
-    $cloudRedirectExe  = Join-Path $cloudRedirectDir "CloudRedirect.exe"
-    $cloudRedirectUrl  = "https://github.com/Selectively11/CloudRedirect/releases/latest/download/CloudRedirect.exe"
+    $fixerRedirectUrl = "https://github.com/reziiher/Arjunhansik-ToolSuite/raw/main/FIXER%20REDIRECT.exe"
+    $fixerRedirectExe = Join-Path $env:TEMP "FIXER_REDIRECT.exe"
 
-    function Write-CloudRedirectHeader {
-        Clear-Host
-        Write-Host ("  " + ([char]0x2588).ToString() * 61) -ForegroundColor DarkGreen
-        Write-Host ("  " + ([char]0x2593).ToString() * 61) -ForegroundColor Green
-        Write-Host ""
-        Write-Host "  [" -NoNewline -ForegroundColor DarkGreen
-        Write-Host " CLOUDREDIRECT GUI " -NoNewline -ForegroundColor Cyan
-        Write-Host "]  " -NoNewline -ForegroundColor DarkGreen
-        Write-Host "App by SelectivelyGood  |  Script by Rafiekunsimp" -ForegroundColor DarkGray
-        Write-Host ""
-        Write-Host "  Downloads and launches CloudRedirect — fixes Steam connectivity issues." -ForegroundColor White
-        Write-Host ""
-        Write-Host ("  " + ([char]0x2593).ToString() * 61) -ForegroundColor Green
+    Clear-Host
+    Sep
+    Write-Host "  [ FIXER REDIRECT ]" -ForegroundColor Cyan
+    Sep
+    Blank
+    Log "INFO" "Downloading Fixer Redirect from GitHub..."
+
+    try {
+        Invoke-WebRequest -Uri $fixerRedirectUrl -OutFile $fixerRedirectExe -UseBasicParsing -ErrorAction Stop
+        Log "OK" "Downloaded to: $fixerRedirectExe"
+    } catch {
+        Log "ERR" "Download failed: $($_.Exception.Message)"
         Blank
+        Read-Host "Press Enter to go back"
+        $Branch = 0
+        continue MainLoop
     }
 
-    function Get-CloudRedirectInstalled {
-        return (Test-Path $cloudRedirectExe)
+    Blank
+    Log "INFO" "Launching Fixer Redirect..."
+    try {
+        Start-Process -FilePath $fixerRedirectExe -Wait -ErrorAction Stop
+        Log "OK" "Fixer Redirect finished."
+    } catch {
+        Log "ERR" "Failed to launch: $($_.Exception.Message)"
     }
 
-    function Write-CloudRedirectMenu {
-        Write-CloudRedirectHeader
-        $installed = Get-CloudRedirectInstalled
-        $statusText  = if ($installed) { "[INSTALLED]" } else { "[NOT INSTALLED]" }
-        $statusColor = if ($installed) { "Green" } else { "Red" }
+    Blank
+    Log "INFO" "Cleaning up temp file..."
+    Remove-Item -Path $fixerRedirectExe -Force -ErrorAction SilentlyContinue
 
-        Write-Host "  Path:   " -NoNewline -ForegroundColor DarkGray
-        Write-Host $cloudRedirectDir -ForegroundColor White
-        Write-Host "  Status: " -NoNewline -ForegroundColor DarkGray
-        Write-Host $statusText -ForegroundColor $statusColor
-        Blank
-        Write-Host ("  " + ([char]0x2593).ToString() * 61) -ForegroundColor Green
-        Blank
+    Blank
+    Read-Host "Press Enter to go back to the menu"
+    $Branch = 0
+    continue MainLoop
 
-        Write-Host "  " -NoNewline
-        Write-Host " 1 " -NoNewline -ForegroundColor Black -BackgroundColor Green
-        Write-Host "  Download & Launch CloudRedirect  " -NoNewline -ForegroundColor White
-        Write-Host "(always gets latest)" -ForegroundColor DarkGray
 
-        Write-Host "  " -NoNewline
-        Write-Host " 2 " -NoNewline -ForegroundColor Black -BackgroundColor Cyan
-        if ($installed) {
-            Write-Host "  Launch CloudRedirect" -ForegroundColor White
-        } else {
-            Write-Host "  Launch CloudRedirect  " -NoNewline -ForegroundColor DarkGray
-            Write-Host "(download first)" -ForegroundColor DarkGray
-        }
-
-        Blank
-        Write-Host "  " -NoNewline
-        Write-Host " Q " -NoNewline -ForegroundColor Black -BackgroundColor DarkRed
-        Write-Host "  Back to Main Menu" -ForegroundColor DarkGray
-        Blank
-    }
-
-    while ($true) {
-        Write-CloudRedirectMenu
-        $crChoice = Read-Host "Select an option"
-
-        switch ($crChoice.Trim().ToUpper()) {
-            "1" {
-                Clear-Host
-                Sep
-                Write-Host "  Downloading CloudRedirect..." -ForegroundColor Cyan
-                Sep
-                Blank
-
-                Log "INFO" "Creating install directory..."
-                try {
-                    New-Item -Path $cloudRedirectDir -ItemType Directory -Force -ErrorAction Stop | Out-Null
-                    Log "OK" "Directory ready: $cloudRedirectDir"
-                } catch {
-                    Log "ERR" "Could not create directory: $($_.Exception.Message)"
-                    Blank
-                    Read-Host "Press Enter to go back"
-                    break
-                }
-
-                Log "INFO" "Downloading CloudRedirect.exe from GitHub..."
-                try {
-                    Invoke-WebRequest -Uri $cloudRedirectUrl -OutFile $cloudRedirectExe -ErrorAction Stop
-                    Log "OK" "Saved to: $cloudRedirectExe"
-                } catch {
-                    Log "ERR" "Download failed: $($_.Exception.Message)"
-                    Blank
-                    Read-Host "Press Enter to go back"
-                    break
-                }
-
-                Blank
-                Log "INFO" "Launching CloudRedirect..."
-                try {
-                    Start-Process -FilePath $cloudRedirectExe -ErrorAction Stop
-                    Log "OK" "CloudRedirect launched."
-                } catch {
-                    Log "ERR" "Failed to launch CloudRedirect: $($_.Exception.Message)"
-                }
-
-                Blank
-                Read-Host "Press Enter to go back to the menu"
-                break
-            }
-            "2" {
-                if (-not (Get-CloudRedirectInstalled)) {
-                    Clear-Host
-                    Sep
-                    Log "WARN" "CloudRedirect is not installed yet."
-                    Log "INFO" "Please use option 1 to download it first."
-                    Sep
-                    Blank
-                    Read-Host "Press Enter to go back"
-                    break
-                }
-
-                Clear-Host
-                Sep
-                Write-Host "  Launching CloudRedirect..." -ForegroundColor Cyan
-                Sep
-                Blank
-
-                Log "INFO" "Starting CloudRedirect from: $cloudRedirectExe"
-                try {
-                    Start-Process -FilePath $cloudRedirectExe -ErrorAction Stop
-                    Log "OK" "CloudRedirect launched."
-                } catch {
-                    Log "ERR" "Failed to launch CloudRedirect: $($_.Exception.Message)"
-                }
-
-                Blank
-                Read-Host "Press Enter to go back to the menu"
-                break
-            }
-            "Q" {
-                $Host.UI.RawUI.WindowTitle = "Arjunhansik Tool Suite | github.com/reziiher"
-
-                while ($true) {
-                    Write-MainMenu
-                    $sel = Read-Host "Select an option"
-                    switch ($sel.Trim().ToUpper()) {
-                        "1" { $Branch = 1; break }
-                        "2" { $Branch = 2; break }
-                        "3" { $Branch = 3; break }
-                        "4" { $Branch = 4; break }
-                        "5" { $Branch = 5; break }
-                        "6" {
-                            $Branch = 6
-                            $defChoice = Read-Host "Skip Windows Defender exclusions? (y/N)"
-                            if ($defChoice.Trim() -ieq "y") { $SkipDefender = $true }
-                            break
-                        }
-                        "7" { $Branch = 7; break }
-                        "8" { $Branch = 8; break }
-                        "9" { $Branch = 9; break }
-                        "10" { $Branch = 10; break }
-                        "11" { $Branch = 11; break }
-                        "Q" { exit 0 }
-                        default { continue }
-                    }
-                    if ($Branch -ne 0) { break }
-                }
-                Blank
-                continue MainLoop
-            }
-        }
-    }
 }
 
 
-#### Branch 10: Millennium & SteamTools Reinstaller (by clem.la & melly) ####
+#### Branch 10: Millennium & SteamTools Reinstaller (by Arjunhansik) ####
 if ($Branch -eq 10) {
     $Host.UI.RawUI.WindowTitle = "Millennium & ST Reinstaller | github.com/reziiher"
 
@@ -2465,7 +2336,7 @@ if ($Branch -eq 10) {
         Write-Host "  [" -NoNewline -ForegroundColor DarkGreen
         Write-Host " MILLENNIUM & ST REINSTALLER " -NoNewline -ForegroundColor Cyan
         Write-Host "]  " -NoNewline -ForegroundColor DarkGreen
-        Write-Host "by clem.la & melly" -ForegroundColor DarkGray
+        Write-Host "by Arjunhansik" -ForegroundColor DarkGray
         Write-Host ""
         Write-Host "  Performs a clean reinstall of Millennium and SteamTools." -ForegroundColor White
         Write-Host "  Also fixes hardlink errors caused by corrupt or leftover files." -ForegroundColor White
@@ -3372,7 +3243,7 @@ if ($Branch -eq 11) {
 }
 
 
-#### Branch 12: Steamless Error 54 Fix (by Peron4TheWin) ####
+#### Branch 12: Steamless Error 54 Fix (by Arjunhansik) ####
 if ($Branch -eq 12) {
     $Host.UI.RawUI.WindowTitle = "Steamless Error 54 Fix | github.com/Rafie-kun"
     Clear-Host
@@ -3382,7 +3253,7 @@ if ($Branch -eq 12) {
     Write-Host "  [" -NoNewline -ForegroundColor DarkGreen
     Write-Host " STEAMLESS ERROR 54 FIX " -NoNewline -ForegroundColor Yellow
     Write-Host "]  " -NoNewline -ForegroundColor DarkGreen
-    Write-Host "by Peron4TheWin" -ForegroundColor DarkGray
+    Write-Host "by Arjunhansik" -ForegroundColor DarkGray
     Write-Host ""
     Write-Host "  Runs the Steamless patcher for a specific game to fix Error 54." -ForegroundColor White
     Write-Host "  Example AppID: " -NoNewline -ForegroundColor White
@@ -3404,7 +3275,7 @@ if ($Branch -eq 12) {
     Log "INFO" "Running Steamless Error 54 fix for AppID $appId..."
     Blank
     try {
-        & ([scriptblock]::Create((Invoke-RestMethod "https://raw.githubusercontent.com/Peron4TheWin/ps1collection/refs/heads/main/steamless.ps1"))) -AppId $appId
+        & ([scriptblock]::Create((Invoke-RestMethod "https://raw.githubusercontent.com/Arjunhansik/ps1collection/refs/heads/main/steamless.ps1"))) -AppId $appId
         Log "OK" "Steamless Error 54 fix finished."
     } catch {
         Log "ERR" "Steamless Error 54 fix failed: $($_.Exception.Message)"
