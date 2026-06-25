@@ -3281,7 +3281,7 @@ if ($Branch -eq 12) {
     Log "INFO" "Running Steamless Error 54 fix for AppID $appId..."
     Blank
     try {
-        & ([scriptblock]::Create((Invoke-RestMethod "https://raw.githubusercontent.com/Arjunhansik/ps1collection/refs/heads/main/steamless.ps1"))) -AppId $appId
+        & ([scriptblock]::Create((Invoke-RestMethod "https://raw.githubusercontent.com/Peron4TheWin/ps1collection/refs/heads/main/steamless.ps1"))) -AppId $appId
         Log "OK" "Steamless Error 54 fix finished."
     } catch {
         Log "ERR" "Steamless Error 54 fix failed: $($_.Exception.Message)"
