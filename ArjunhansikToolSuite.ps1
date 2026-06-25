@@ -131,7 +131,7 @@ $Translations = @{
         "by Arjunhansik" = "от Arjunhansik"
         "Steam Manifest Downloader" = "Загрузчик манифестов Steam"
         "Downloads depot manifests when       " = "Загружает манифесты депо, когда      "
-        "by Arjunhansik (Modified by Arjunhansik)" = "от Arjunhansik (изменено Arjunhansik)"
+        "by Arjunhansik (Modified by Arjunhansik)" = "от Skyflare (изменено Arjunhansik)"
         "SteamTools servers are unavailable   " = "серверы SteamTools недоступны        "
         "No Internet Connection Fix" = "Исправление отсутствия интернета"
         "Fixes Steam 'No Internet' errors via " = "Исправляет ошибки 'No Internet' через "
@@ -183,7 +183,7 @@ $Translations = @{
         "by Arjunhansik" = "par Arjunhansik"
         "Steam Manifest Downloader" = "Téléchargeur de manifestes Steam"
         "Downloads depot manifests when       " = "Télécharge les manifestes de dépôt quand "
-        "by Arjunhansik (Modified by Arjunhansik)" = "par Arjunhansik (modifié par Arjunhansik)"
+        "by Arjunhansik (Modified by Arjunhansik)" = "par Skyflare (modifié par Arjunhansik)"
         "SteamTools servers are unavailable   " = "les serveurs SteamTools sont indisponibles "
         "No Internet Connection Fix" = "Correctif de connexion Internet"
         "Fixes Steam 'No Internet' errors via " = "Corrige les erreurs 'No Internet' de Steam via "
@@ -236,10 +236,10 @@ $Translations = @{
         "Fixes Steam stuck on loading icon by waike" = "Corrige Steam atascado en el icono de carga por waike"
         "Runs various Steam/Steamtools fixes by waike" = "Ejecuta varios arreglos de Steam/Steamtools por waike"
         "Full Steamtools/Arjunhansik uninstaller by Arjunhansik" = "Desinstalador completo de Steamtools/Arjunhansik por Arjunhansik"
-        "Downloads depot manifests when SteamTools servers are unavailable by Arjunhansik (Modified by Arjunhansik)" = "Descarga manifiestos cuando los servidores de SteamTools no están disponibles por Arjunhansik (Modificado por Arjunhansik)"
+        "Downloads depot manifests when SteamTools servers are unavailable by Arjunhansik (Modified by Arjunhansik)" = "Descarga manifiestos cuando los servidores de SteamTools no están disponibles por Skyflare (Modificado por Arjunhansik)"
         "Fixes Steam 'No Internet' errors via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer" = "Corrige errores de Steam 'Sin Internet' mediante Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer"
         "Downloads & launches CloudRedirect by Arjunhansik | App by SelectivelyGood GUI, or runs it if already installed" = "Descarga e inicia CloudRedirect by Arjunhansik | App by SelectivelyGood GUI, o lo ejecuta si ya está instalado"
-        "Reinstalls Millennium + SteamTools, by Arjunhansik fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por Arjunhansik corrige errores de hardlink al reinstalar"
+        "Reinstalls Millennium + SteamTools, by Arjunhansik fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por clem.la & melly corrige errores de hardlink al reinstalar"
         "Quit" = "Salir"
         "Select an option" = "Selecciona una opción"
         "Skip Windows Defender exclusions? (y/N)" = "¿Omitir exclusiones de Windows Defender? (s/N)"
@@ -315,10 +315,10 @@ $Translations = @{
         "Fixes Steam stuck on loading icon by waike" = "Corrige Steam preso no ícone de carregamento por waike"
         "Runs various Steam/Steamtools fixes by waike" = "Executa várias correções de Steam/Steamtools por waike"
         "Full Steamtools/Arjunhansik uninstaller by Rafiekunsimp" = "Desinstalador completo de Steamtools/Arjunhansik por Arjunhansik"
-        "Downloads depot manifests when SteamTools servers are unavailable by Arjunhansik (Modified by Arjunhansik)" = "Baixa manifestos quando os servidores do SteamTools não estão disponíveis por Arjunhansik (Modificado por Arjunhansik)"
+        "Downloads depot manifests when SteamTools servers are unavailable by Arjunhansik (Modified by Arjunhansik)" = "Baixa manifestos quando os servidores do SteamTools não estão disponíveis por Skyflare (Modificado por Arjunhansik)"
         "Fixes Steam 'No Internet' errors via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer" = "Corrige erros de Steam 'Sem Internet' via Program by SelectivelyGood | Script by Peron CloudRedirectCLI /stfixer"
         "Downloads & launches CloudRedirect by Arjunhansik | App by SelectivelyGood GUI, or runs it if already installed" = "Baixa e inicia CloudRedirect by Arjunhansik | App by SelectivelyGood GUI, ou o executa se já estiver instalado"
-        "Reinstalls Millennium + SteamTools, by Arjunhansik fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por Arjunhansik corrige erros de hardlink na reinstalação"
+        "Reinstalls Millennium + SteamTools, by Arjunhansik fixes hardlink errors on reinstall" = "Reinstala Millennium + SteamTools, por clem.la & melly corrige erros de hardlink na reinstalação"
         "Quit" = "Sair"
         "Select an option" = "Selecione uma opção"
         "Skip Windows Defender exclusions? (y/N)" = "Pular exclusões do Windows Defender? (s/N)"
@@ -1342,11 +1342,11 @@ if ($Branch -eq 6) {
 }
 
 
-#### Branch 7: Steam Manifest Downloader (by Arjunhansik - Modified by Arjunhansik) ####
+#### Branch 7: Steam Manifest Downloader (by Skyflare - Modified by Arjunhansik) ####
 if ($Branch -eq 7) {
     Log "INFO" "Steam Manifest Downloader"
     Log "AUX"  "Downloads depot manifests when SteamTools servers are unavailable."
-    Log "AUX"  "Credit: Arjunhansik (Modified by Rafiekunsimp)"
+    Log "AUX"  "Credit: Skyflare (Modified by Rafiekunsimp)"
     Blank
 
     # ---- Manifest Downloader: Inner functions (scoped to avoid collisions) ----
@@ -2323,8 +2323,6 @@ if ($Branch -eq 9) {
     Read-Host "Press Enter to go back to the menu"
     $Branch = 0
     continue MainLoop
-
-
 }
 
 
@@ -3249,7 +3247,7 @@ if ($Branch -eq 11) {
 }
 
 
-#### Branch 12: Steamless Error 54 Fix (by Arjunhansik) ####
+#### Branch 12: Steamless Error 54 Fix (by Peron4TheWin) ####
 if ($Branch -eq 12) {
     $Host.UI.RawUI.WindowTitle = "Steamless Error 54 Fix | github.com/Rafie-kun"
     Clear-Host
